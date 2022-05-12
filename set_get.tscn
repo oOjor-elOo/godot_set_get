@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4ni8nuehpf1p"]
+
+[ext_resource type="Script" path="res://Node3D.gd" id="1_b1xqt"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource( "1_b1xqt" )
+value_type_set_get_works = 568
+array_set_get_does_not_work = [554]
+array_set_get_separate_function_works = [14516, 145, 659, 45]
